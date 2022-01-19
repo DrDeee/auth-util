@@ -69,7 +69,13 @@ export default {
       this.$router.push("login");
     },
     copy(label, value) {
-      navigator.clipboard.writeText(value);
+      let textarea = document.createElement("textarea");
+      textarea.value = value;
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
       Toast.open({
         message: label + " kopiert.",
         position: "is-bottom",
