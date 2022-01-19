@@ -7,9 +7,9 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'auth-util',
+        title: 'AuthUtil',
         htmlAttrs: {
-            lang: 'en'
+            lang: 'de'
         },
         meta: [
             { charset: 'utf-8' },
@@ -37,7 +37,8 @@ export default {
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         '@nuxtjs/axios',
-        '@nuxtjs/auth-next'
+        '@nuxtjs/auth-next',
+        'nuxt-buefy'
     ],
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
