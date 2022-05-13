@@ -54,9 +54,9 @@ export default {
             cloud: {
                 scheme: 'oauth2',
                 endpoints: {
-                    authorization: 'https://auth.messenger.fridaysforfuture.dev/auth/realms/dev/protocol/openid-connect/auth',
-                    token: 'https://auth.messenger.fridaysforfuture.dev/auth/realms/dev/protocol/openid-connect/token',
-                    userInfo: 'https://auth.messenger.fridaysforfuture.dev/auth/realms/dev/protocol/openid-connect/userinfo',
+                    authorization: 'https://dev-auth.messenger.fridaysforfuture.dev/auth/realms/dev/protocol/openid-connect/auth',
+                    token: 'https://dev-auth.messenger.fridaysforfuture.dev/auth/realms/dev/protocol/openid-connect/token',
+                    userInfo: 'https://dev-auth.messenger.fridaysforfuture.dev/auth/realms/dev/protocol/openid-connect/userinfo',
                 },
                 token: {
                     maxAge: 600,
